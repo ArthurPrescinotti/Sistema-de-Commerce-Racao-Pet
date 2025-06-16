@@ -1,0 +1,120 @@
+.produto-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  background-color: #fff;
+  padding: 20px;
+  min-height: 100vh;
+  box-sizing: border-box;
+}
+
+.produto-textboxTitle {
+  font-size: 45px;
+  margin-bottom: 20px;
+  text-align: center;
+}
+
+.produto-table {
+  width: 100%;
+  max-width: 1200px;
+  margin: 20px auto;
+  border-collapse: collapse;
+  table-layout: fixed;
+}
+
+.produto-table th,
+.produto-table td {
+  padding: 12px;
+  border: 1px solid #ddd;
+  text-align: center;
+  word-wrap: break-word;
+  font-size: 21px;
+}
+
+.produto-table th {
+  background-color: #f4f4f4;
+  font-weight: bold;
+}
+
+.produto-textboxMostra {
+  padding: 9px 12px;
+  box-sizing: border-box;
+  background-color: #fff;
+  border: 1px solid black;
+  text-align: center;
+  overflow: hidden;
+  white-space: nowrap;
+  text-overflow: ellipsis;
+}
+
+.produto-button {
+  cursor: pointer;
+  border-radius: 8px;
+  border: 1.9px solid black;
+  padding: 5px 5px;
+  margin: 1px 6px;
+  background-color: transparent;
+}
+
+.produto-botao-container {
+  display: flex;
+  justify-content: flex-end;
+  width: 100%;
+  margin-top: 12px;
+}
+
+.produto-buttonAdicionar {
+  cursor: pointer;
+  font-size: 15px;
+  border-radius: 8px;
+  border: none;
+  margin: 12px 6px;
+  padding: 14px 20px;
+  color: white;
+  background-color: #1504ff;
+  transition: background-color 0.3s ease;
+}
+
+.produto-buttonAdicionar:hover {
+  background-color: #1504ffc9;
+}
+
+.produto-textPaginacao {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 10px;
+  margin-top: 20px;
+  font-size: 16px;
+}
+
+.produto-buttonPaginacao {
+  background-color: transparent;
+  border: none;
+  cursor: pointer;
+  padding: 5px;
+}
+
+.produto-buttonPaginacao img {
+  width: 25px;
+  height: 25px;
+  vertical-align: middle;
+}
+
+/* Responsividade básica */
+@media (max-width: 768px) {
+  .produto-table th,
+  .produto-table td {
+    font-size: 12px;
+    padding: 8px;
+  }
+
+  .produto-textboxTitle {
+    font-size: 30px;
+  }
+
+  .produto-buttonAdicionar {
+    width: 100%;
+  }
+}

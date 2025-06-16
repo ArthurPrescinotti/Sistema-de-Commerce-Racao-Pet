@@ -1,0 +1,64 @@
+.container {
+  min-height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background: linear-gradient(
+    90deg,
+    rgba(2, 0, 36, 1) 0%,
+    rgba(9, 9, 121, 1) 35%,
+    rgba(0, 212, 255, 1) 100%
+  );
+  text-align: center;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.card-text {
+  background-color: rgba(0, 0, 0, 0.438);
+  border-radius: 9px;
+  width: 90%;
+  max-width: 400px;
+  margin: 6% auto;
+  color: white;
+}
+
+.card-text-title {
+  width: 90%;
+  max-width: 400px;
+  margin: 6% auto;
+  font-size: 35px;
+}
+
+.textlabel {
+  display: flex;
+  justify-items: baseline;
+  margin-left: 12%;
+  margin-top: 7%;
+  font-size: 27px;
+}
+
+.textboxinput {
+  width: 69%;
+  padding: 10px 35px 10px 10px;
+  margin: 10px auto;
+  margin-top: 2%;
+  border: none;
+  background: #f1f1f1;
+  border-radius: 5px;
+  height: 40px;
+  font-size: 27px;
+  display: block;
+}
+
+.buttonAdicionar {
+  font-size: 24px;
+  background-color: rgba(0, 213, 255, 0.575);
+  color: white;
+  padding: 15px;
+  margin: 8px auto 20px auto;
+  margin-top: 3%;
+  border: none;
+  cursor: pointer;
+  width: 39%;
+  border-radius: 12px;
+}

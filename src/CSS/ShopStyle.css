@@ -1,0 +1,20 @@
+.conteudo-flex {
+  display: flex;
+  gap: 2rem; /* Espaço entre os dois blocos */
+  align-items: flex-start; /* Alinha os blocos pelo topo */
+}
+
+.tabela-produtos {
+  flex: 3; /* Tabela ocupa mais espaço */
+  overflow-x: auto; /* Para caso a tabela seja larga */
+}
+
+.carrinho {
+  flex: 1; /* Carrinho ocupa menos espaço */
+  border: 1px solid #ddd;
+  padding: 1rem;
+  background-color: #fafafa;
+  border-radius: 5px;
+  max-height: 500px;
+  overflow-y: auto; /* Scroll se o carrinho ficar muito longo */
+}

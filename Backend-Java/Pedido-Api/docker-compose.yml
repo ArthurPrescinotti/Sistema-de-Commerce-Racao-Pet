@@ -1,0 +1,27 @@
+version: "3.8"
+services:
+  sb-app:
+    build: .
+    container_name: "CommercePetPedid-app"
+    ports:
+      - 8085:8085
+    networks:
+      - app_network
+
+  mysql_Pedido:
+    image: mysql:8.0.30
+    container_name: mysql_PedidoBD
+    restart: always
+    environment:
+      MYSQL_ROOT_PASSWORD: root
+      MYSQL_DATABASE: PedidoBD
+    ports:
+      - "3311:3306"
+    volumes:
+      - ./db-init:/docker-entrypoint-initdb.d
+    networks:
+      - app_network
+
+networks:
+  app_network:
+    driver: bridge
