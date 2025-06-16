@@ -23,3 +23,10 @@ http://localhost:8083/projeto/api/v1/produtos
 http://localhost:8085/projeto/api/v1/pedidos
 
 http://localhost:8086/projeto/api/v1/pagamentos
+
+## Arquitetura
+
+![Diagrama de Entidade](https://github.com/user-attachments/assets/c4f73597-9ca1-4e9f-bde7-e70b87dc2716)
+
+
+![Diagrama de Arquitetura](https://github.com/user-attachments/assets/ae4612c5-01ad-4718-9175-2017f28b37c5)
