@@ -1,4 +1,4 @@
-# Sistema de Commercer De Ração para PET
+# Sistema de Commercer de Ração para PET
  Sistema de Gerenciamneto de Aluno utilizando o Java Spring Boot de Backend e React de Frontend.  
 
 ## Passo a Passo de como rodar o programa
