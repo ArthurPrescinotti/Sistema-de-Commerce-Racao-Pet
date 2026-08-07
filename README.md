@@ -1,8 +1,6 @@
 # Sistema de Commercer de Ração para PET
  Sistema de e-commerce desenvolvido para comercialização de rações e produtos para pets, utilizando uma arquitetura baseada em microsserviços. O projeto foi desenvolvido com Java Spring Boot no backend, React no frontend e MySQL como banco de dados.
 
-O sistema contempla funcionalidades como autenticação de usuários, gerenciamento de produtos, processamento de pedidos e pagamentos, proporcionando uma estrutura escalável e modular.
-
 ## Passo a Passo de como rodar o programa
  1. Passo: Verificar se o MySql, Java e React está instalado na maquina.  
  2. Passo: Abrir o pasta BackEnd em um Idea para Rodar o Java(Exemplo: Eclipse, Intellij).  
