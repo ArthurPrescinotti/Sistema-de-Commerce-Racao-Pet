@@ -1,28 +1,46 @@
 # Sistema de Commercer de Ração para PET
  Sistema de e-commerce desenvolvido para comercialização de rações e produtos para pets, utilizando uma arquitetura baseada em microsserviços. O projeto foi desenvolvido com Java Spring Boot no backend, React no frontend e MySQL como banco de dados.
 
-## Passo a Passo de como rodar o programa
- 1. Passo: Verificar se o MySql, Java e React está instalado na maquina.  
- 2. Passo: Abrir o pasta BackEnd em um Idea para Rodar o Java(Exemplo: Eclipse, Intellij).  
- 3. Passo: Rodar o Main.java.  
- 4. Passo: Criar uma pasta Front-End e colocar o resto dos arquivos menos o README.md em uma Idea para Rodar o React(Exemplo: Visual Studio Code).    
- 5. Passo: abrir o terminal e colocar o código:  
-    - npm install (se necessário).  
-    - npm start.  
+## Como Executar o Projeto
 
-## Passo a Passo de como rodar o programa
+### Pré-requisitos
 
-### EndPoints:
+Certifique-se de que os seguintes softwares estejam instalados:
 
-http://localhost:8084/projeto/api/v1/usuarios/login
+* Java JDK
+* Node.js e npm
+* MySQL
+* IDE para Java (IntelliJ IDEA, Eclipse ou Spring Tool Suite)
+* Visual Studio Code (ou outra IDE para React)
 
-http://localhost:8084/projeto/api/v1/usuarios
+### Backend
 
-http://localhost:8083/projeto/api/v1/produtos
+1. Configure o banco de dados MySQL e atualize as credenciais no arquivo `application.properties` (ou `application.yml`) de cada microsserviço, se necessário.
+2. Abra cada microsserviço em sua IDE Java.
+3. Execute a classe principal do Spring Boot de cada serviço.
+4. Verifique se todos os serviços estão em execução.
 
-http://localhost:8085/projeto/api/v1/pedidos
+### Frontend
 
-http://localhost:8086/projeto/api/v1/pagamentos
+1. Abra a pasta do frontend no Visual Studio Code.
+2. Execute os seguintes comandos no terminal:
+
+```bash
+npm install
+npm start
+```
+
+O sistema será iniciado automaticamente no navegador.
+
+## Endpoints da API
+
+| Serviço    | Endpoint                                              |
+| ---------- | ----------------------------------------------------- |
+| Login      | `http://localhost:8084/projeto/api/v1/usuarios/login` |
+| Usuários   | `http://localhost:8084/projeto/api/v1/usuarios`       |
+| Produtos   | `http://localhost:8083/projeto/api/v1/produtos`       |
+| Pedidos    | `http://localhost:8085/projeto/api/v1/pedidos`        |
+| Pagamentos | `http://localhost:8086/projeto/api/v1/pagamentos`     |
 
 ## Arquitetura
 
